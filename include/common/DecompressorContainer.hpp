@@ -6,10 +6,13 @@
 #define TILESON_DECOMPRESSORCONTAINER_HPP
 
 #include "../interfaces/IDecompressor.hpp"
-#include <memory>
-#include <vector>
-#include <string_view>
+
+#include <algorithm>
 #include <functional>
+#include <memory>
+#include <string_view>
+#include <vector>
+
 namespace tson
 {
     class DecompressorContainer

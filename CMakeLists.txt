@@ -55,7 +55,7 @@ else()
 endif()
 
 #option(BUILD_SHARED_LIBS "Build shared libraries." OFF)
-option(BUILD_TESTS "Build unit tests." ON)
+option(BUILD_TESTS "Build unit tests." OFF)
 option(BUILD_EXAMPLES "Build examples." OFF)
 option(CLEAR_TSON_CMAKE_CACHE "Clear CMake cache for variables. Activate if you are working on the code. Otherwise: keep it off" OFF)
 
